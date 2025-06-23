@@ -1,8 +1,8 @@
 		name: Windows-Litemanager 
   		on:
-    		workflow_dispatch:
+    		  workflow_dispatch:
 			
-		jobs:
+	        jobs:
 		  build:
 				name: Start Building...
 				runs-on: windows-latest
